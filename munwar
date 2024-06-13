@@ -1,213 +1,218 @@
-function _0x1c9335(_0x3806b2, _0x197c88) {
-    return _0x1e1d(_0x197c88 - 0x1e2, _0x3806b2);
+function _0x507988(_0x5d2cb3, _0x536a77) {
+    return _0x103e(_0x536a77 - -0x1a2, _0x5d2cb3);
 }
-(function (_0x103a55, _0x39428c) {
-    const _0xc01a67 = _0x103a55();
-    function _0x3812e1(_0x3dec92, _0x82d0bd) {
-        return _0x1e1d(_0x3dec92 - 0x389, _0x82d0bd);
+(function (_0x303750, _0x7694f7) {
+    const _0x1af119 = _0x303750();
+    function _0x6a3a4a(_0x2af1c0, _0x4d4253) {
+        return _0x103e(_0x4d4253 - 0x3cb, _0x2af1c0);
     }
     while (!![]) {
         try {
-            const _0x5d0a45 = parseInt(_0x3812e1(0x3a6, 0x3c1)) / 0x1 * (parseInt(_0x3812e1(0x3ac, 0x3ab)) / 0x2) + -parseInt(_0x3812e1(0x391, 0x396)) / 0x3 * (-parseInt(_0x3812e1(0x38a, 0x370)) / 0x4) + parseInt(_0x3812e1(0x3aa, 0x3b5)) / 0x5 * (-parseInt(_0x3812e1(0x3ae, 0x396)) / 0x6) + -parseInt(_0x3812e1(0x38c, 0x3a0)) / 0x7 * (-parseInt(_0x3812e1(0x397, 0x39c)) / 0x8) + parseInt(_0x3812e1(0x3a9, 0x3c4)) / 0x9 + parseInt(_0x3812e1(0x3b6, 0x3ab)) / 0xa + parseInt(_0x3812e1(0x3b3, 0x3c5)) / 0xb * (-parseInt(_0x3812e1(0x3b8, 0x3c2)) / 0xc);
-            if (_0x5d0a45 === _0x39428c) {
+            const _0x27669e = parseInt(_0x6a3a4a(0x41a, 0x402)) / 0x1 * (-parseInt(_0x6a3a4a(0x3dc, 0x3ee)) / 0x2) + parseInt(_0x6a3a4a(0x3bd, 0x3d3)) / 0x3 * (-parseInt(_0x6a3a4a(0x403, 0x3f2)) / 0x4) + parseInt(_0x6a3a4a(0x3e6, 0x401)) / 0x5 * (-parseInt(_0x6a3a4a(0x3bf, 0x3ce)) / 0x6) + parseInt(_0x6a3a4a(0x3b9, 0x3d5)) / 0x7 + -parseInt(_0x6a3a4a(0x402, 0x3fa)) / 0x8 * (parseInt(_0x6a3a4a(0x415, 0x408)) / 0x9) + parseInt(_0x6a3a4a(0x412, 0x407)) / 0xa * (-parseInt(_0x6a3a4a(0x3df, 0x3da)) / 0xb) + parseInt(_0x6a3a4a(0x3ea, 0x3ea)) / 0xc;
+            if (_0x27669e === _0x7694f7) {
                 break;
             } else {
-                _0xc01a67['push'](_0xc01a67['shift']());
+                _0x1af119['push'](_0x1af119['shift']());
             }
-        } catch (_0x2ec52f) {
-            _0xc01a67['push'](_0xc01a67['shift']());
+        } catch (_0x11c0ea) {
+            _0x1af119['push'](_0x1af119['shift']());
         }
     }
-}(_0x2c3f, 0xc9b90));
-async function copyTextToClipboard(_0x111ed1) {
-    function _0x4a4f27(_0x504137, _0x26f65c) {
-        return _0x1e1d(_0x504137 - 0x1c5, _0x26f65c);
+}(_0x64ee, 0xde8f3));
+async function copyTextToClipboard(_0x5d7d96) {
+    function _0x293b72(_0x111fd2, _0x2ad054) {
+        return _0x103e(_0x2ad054 - -0x38, _0x111fd2);
     }
     try {
-        if (!_0x111ed1) {
-            throw new Error('Text\x20not\x20found');
+        if (!_0x5d7d96) {
+            throw new Error(_0x293b72(0xe, -0x10));
         }
-        await navigator[_0x4a4f27(0x1e0, 0x1f9)][_0x4a4f27(0x1de, 0x1f7)](_0x111ed1);
-    } catch (_0x1c5a6f) {
-        console[_0x4a4f27(0x1fc, 0x217)]('Error\x20copying\x20to\x20clipboard:', _0x1c5a6f);
-        throw _0x1c5a6f;
+        await navigator[_0x293b72(-0x50, -0x34)][_0x293b72(-0x2c, -0x26)](_0x5d7d96);
+    } catch (_0x186a9a) {
+        console['error']('Error\x20copying\x20to\x20clipboard:', _0x186a9a);
+        throw _0x186a9a;
     }
 }
-async function sendToOpenAI(_0x49c50f) {
-    const _0x499d49 = _0x3e5e48(0x1c5, 0x1de);
-    function _0x3e5e48(_0x15d60e, _0x3ae4ea) {
-        return _0x1e1d(_0x15d60e - 0x1b4, _0x3ae4ea);
+async function sendToOpenAI(_0x209b5a) {
+    function _0x343c0b(_0x22db47, _0x113855) {
+        return _0x103e(_0x22db47 - 0x9c, _0x113855);
     }
-    const _0x52ff3 = _0x3e5e48(0x1cb, 0x1c1) + _0x499d49;
-    const _0x363f32 = {
-        'method': _0x3e5e48(0x1c9, 0x1e3),
-        'headers': { 'Content-Type': _0x3e5e48(0x1b6, 0x1ae) },
-        'body': JSON[_0x3e5e48(0x1e7, 0x1e8)]({ 'contents': [{ 'parts': [{ 'text': _0x49c50f }] }] })
+    const _0x4cb67a = 'AIzaSyDI7pE4edUVd_u4wlDEijP-bWzvebWDRO0';
+    const _0x479080 = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + _0x4cb67a;
+    const _0x2b5544 = {
+        'method': _0x343c0b(0xcf, 0xde),
+        'headers': { 'Content-Type': _0x343c0b(0xad, 0xcb) },
+        'body': JSON[_0x343c0b(0xc0, 0xb1)]({ 'contents': [{ 'parts': [{ 'text': _0x209b5a }] }] })
     };
     try {
-        const _0x184ffe = await fetch(_0x52ff3, _0x363f32);
-        if (!_0x184ffe['ok']) {
-            throw new Error('HTTP\x20error!\x20Status:\x20' + _0x184ffe['status']);
+        const _0x1a6382 = await fetch(_0x479080, _0x2b5544);
+        if (!_0x1a6382['ok']) {
+            throw new Error(_0x343c0b(0xb6, 0xce) + _0x1a6382[_0x343c0b(0xa1, 0x91)]);
         }
-        const _0x1f2111 = await _0x184ffe[_0x3e5e48(0x1ca, 0x1bf)]();
-        const _0x23cf64 = _0x1f2111[_0x3e5e48(0x1c6, 0x1b8)];
-        const _0x7f1ce = _0x23cf64[0x0][_0x3e5e48(0x1e6, 0x1df)][_0x3e5e48(0x1d0, 0x1ba)][0x0][_0x3e5e48(0x1c7, 0x1cc)];
-        console['log'](_0x3e5e48(0x1c4, 0x1bd), _0x7f1ce);
-        await copyTextToClipboard(_0x7f1ce);
-        return _0x7f1ce;
-    } catch (_0x2d16b0) {
-        console['error'](_0x3e5e48(0x1e4, 0x1eb), _0x2d16b0['message']);
-        throw _0x2d16b0;
+        const _0x5c9bc0 = await _0x1a6382['json']();
+        const _0x551038 = _0x5c9bc0[_0x343c0b(0xb7, 0x99)];
+        const _0x11cdb0 = _0x551038[0x0][_0x343c0b(0xaf, 0x96)][_0x343c0b(0xb0, 0xbf)][0x0][_0x343c0b(0x9c, 0x9c)];
+        console[_0x343c0b(0xc9, 0xbd)](_0x343c0b(0xa8, 0xac), _0x11cdb0);
+        await copyTextToClipboard(_0x11cdb0);
+        return _0x11cdb0;
+    } catch (_0x50f89b) {
+        console['error']('Error:', _0x50f89b['message']);
+        throw _0x50f89b;
     }
 }
-async function handleDoubleClick(_0x4c0f85) {
-    function _0x1f021e(_0x35bfd7, _0x357d6d) {
-        return _0x1e1d(_0x357d6d - 0x8e, _0x35bfd7);
+async function handleDoubleClick(_0x505691) {
+    function _0x1aee95(_0x36c54d, _0x29b1aa) {
+        return _0x103e(_0x36c54d - -0xf8, _0x29b1aa);
     }
     try {
-        const _0x586673 = _0x4c0f85['target'][_0x1f021e(0x9b, 0x98)](_0x1f021e(0xac, 0xb7));
-        if (!_0x586673)
-            throw new Error(_0x1f021e(0x86, 0x8e));
-        const _0x200039 = _0x586673['innerText'][_0x1f021e(0x94, 0xad)](/\n{3,}/g, '\x0a')[_0x1f021e(0x98, 0x99)]();
-        console[_0x1f021e(0xe0, 0xc4)](_0x1f021e(0xcd, 0xc3), _0x200039);
-        const _0x3f43d7 = document[_0x1f021e(0x83, 0x9d)](_0x1f021e(0xa0, 0xa8));
-        let _0x4e25c8 = '';
-        if (!_0x3f43d7) {
-            _0x4e25c8 = _0x200039 + _0x1f021e(0x9b, 0xac);
+        const _0x4e322e = _0x505691['target'][_0x1aee95(-0xce, -0xdb)](_0x1aee95(-0xc4, -0xb9));
+        if (!_0x4e322e)
+            throw new Error(_0x1aee95(-0xd7, -0xe3));
+        const _0x2b3e28 = _0x4e322e[_0x1aee95(-0xc7, -0xb1)][_0x1aee95(-0xe8, -0xeb)](/\n{3,}/g, '\x0a')[_0x1aee95(-0xc6, -0xbd)]();
+        console['log'](_0x1aee95(-0xd2, -0xca), _0x2b3e28);
+        const _0x85775b = document[_0x1aee95(-0xd3, -0xcc)](_0x1aee95(-0xe0, -0xf8));
+        let _0x569261 = '';
+        if (!_0x85775b) {
+            _0x569261 = _0x2b3e28 + _0x1aee95(-0xed, -0xde);
         } else {
-            _0x4e25c8 = _0x200039 + '\x20using\x20' + _0x3f43d7[_0x1f021e(0x9a, 0x93)] + _0x1f021e(0xbc, 0xb9);
+            _0x569261 = _0x2b3e28 + _0x1aee95(-0xc0, -0xab) + _0x85775b['innerText'] + _0x1aee95(-0xda, -0xf7);
         }
-        console['log'](_0x1f021e(0xbb, 0xbf), _0x4e25c8);
-        await copyTextToClipboard(_0x4e25c8);
-        _0x4e25c8 = await navigator['clipboard']['readText']();
-        await sendToOpenAI(_0x4e25c8);
-        const _0x569af9 = document[_0x1f021e(0x8c, 0x9d)](_0x1f021e(0xc3, 0xc6));
-        if (_0x569af9) {
-            _0x569af9[_0x1f021e(0xaf, 0xa6)]['color'] = _0x1f021e(0xb2, 0xbc);
+        console[_0x1aee95(-0xcb, -0xbe)](_0x1aee95(-0xcf, -0xee), _0x569261);
+        await copyTextToClipboard(_0x569261);
+        _0x569261 = await navigator[_0x1aee95(-0xf4, -0xed)][_0x1aee95(-0xdf, -0xd3)]();
+        await sendToOpenAI(_0x569261);
+        const _0x31b2d2 = document['querySelector'](_0x1aee95(-0xe3, -0xf2));
+        if (_0x31b2d2) {
+            _0x31b2d2['style'][_0x1aee95(-0xf7, -0xf7)] = _0x1aee95(-0xdc, -0xca);
             setTimeout(() => {
-                function _0x1c4432(_0x3b816d, _0x2e2f03) {
-                    return _0x1f021e(_0x3b816d, _0x2e2f03 - -0x8e);
+                function _0x14a0d2(_0x4b4672, _0x2132ea) {
+                    return _0x1aee95(_0x4b4672 - 0x209, _0x2132ea);
                 }
-                _0x569af9['style']['color'] = _0x1c4432(0x45, 0x34);
+                _0x31b2d2[_0x14a0d2(0x133, 0x143)][_0x14a0d2(0x112, 0xfa)] = _0x14a0d2(0x14c, 0x158);
             }, 0xbb8);
         }
-    } catch (_0x599274) {
-        console[_0x1f021e(0xcc, 0xc5)](_0x1f021e(0xc8, 0xbe), _0x599274['message']);
+    } catch (_0x5d4d6c) {
+        console[_0x1aee95(-0xcd, -0xe0)](_0x1aee95(-0xcc, -0xcd), _0x5d4d6c[_0x1aee95(-0xf2, -0xdb)]);
     }
-}
-function _0x1e1d(_0xc88fca, _0x2c3f68) {
-    const _0x1e1db0 = _0x2c3f();
-    _0x1e1d = function (_0x90d735, _0x3350b9) {
-        _0x90d735 = _0x90d735 - 0x0;
-        let _0x1074e1 = _0x1e1db0[_0x90d735];
-        return _0x1074e1;
-    };
-    return _0x1e1d(_0xc88fca, _0x2c3f68);
 }
 function Hack() {
-    function _0x8d732e(_0x302161, _0x15415a) {
-        return _0x1e1d(_0x302161 - -0x12e, _0x15415a);
-    }
-    const _0x38e6a7 = new MutationObserver((_0x36900a, _0x2d01fc) => {
-        function _0x355d58(_0x41a475, _0x5e3803) {
-            return _0x1e1d(_0x5e3803 - 0x203, _0x41a475);
+    const _0x49a828 = new MutationObserver((_0x409e83, _0x1bfa2c) => {
+        function _0x2cf31c(_0x248ed5, _0x57ba91) {
+            return _0x103e(_0x57ba91 - -0x186, _0x248ed5);
         }
-        if (document[_0x355d58(0x21c, 0x212)](_0x355d58(0x245, 0x22c))) {
-            _0x2d01fc[_0x355d58(0x212, 0x20c)]();
+        if (document[_0x2cf31c(-0x160, -0x161)](_0x2cf31c(-0x16a, -0x152))) {
+            _0x1bfa2c[_0x2cf31c(-0x168, -0x151)]();
         }
     });
-    _0x38e6a7[_0x8d732e(-0x11a, -0x12f)](document, {
+    _0x49a828[_0x1a644f(0xb5, 0xbf)](document, {
         'childList': !![],
         'subtree': !![]
     });
-    document[_0x8d732e(-0x10a, -0x116)](_0x8d732e(-0x127, -0x13f), handleDoubleClick);
-}
-function _0x2c3f() {
-    const _0x36ef95 = [
-        'Error:',
-        'Formatted\x20Clipboard\x20Text:',
-        'content',
-        'stringify',
-        'black',
-        'Cleaned\x20Text:',
-        'log',
-        'error',
-        '.lg\x5c:t-mb-15.t-mb-10.t-text-black.t-text-big.lg\x5c:t-text-xl.t-font-bold',
-        'Target\x20element\x20not\x20found',
-        '12qqgPxb',
-        'application/json',
-        '3953985lhUCnA',
-        'catch',
-        'innerText',
-        'Failed\x20to\x20paste:',
-        'dblclick',
-        '1447869hsBFJK',
-        'disconnect',
-        'closest',
-        'trim',
-        'dispatchEvent',
-        'input',
-        '8aHonEf',
-        'querySelector',
-        'Extracted\x20Text:',
-        'AIzaSyAoldC55J1ci9FI6YjvvXLhqJGMDnpYCBo',
-        'candidates',
-        'text',
-        'observe',
-        'POST',
-        'json',
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=',
-        'style',
-        'writeText',
-        '[aria-labelledby=\x22instruction-card\x22]',
-        'clipboard',
-        'parts',
-        '701JLiANM',
-        '\x20please\x20Solve\x20a\x20question\x20in\x20simple\x20way\x20in\x20c++\x20Language\x20format',
-        'replace',
-        '12666726lREsGp',
-        '6005YaqCkp',
-        'readText',
-        '2962NuyOux',
-        'addEventListener',
-        '2994BJlmPD',
-        'activeElement',
-        'value',
-        'key',
-        'div[aria-labelledby=\x22each-type-question\x22]',
-        '3057153VQucOu',
-        '\x0a\x20print\x20in\x20proper\x20c\x20Language\x20\x20the\x20output\x20that\x20he/she\x20asked\x20for,\x20keeping\x20in\x20mind\x20this\x20thing.',
-        'keydown',
-        '243890ApewmL',
-        'grey',
-        '132HQBiao'
-    ];
-    _0x2c3f = function () {
-        return _0x36ef95;
-    };
-    return _0x2c3f();
-}
-document[_0x1c9335(0x1f0, 0x206)](_0x1c9335(0x229, 0x20e), _0x5b11c9 => {
-    function _0x2b0f9d(_0x49005c, _0x597176) {
-        return _0x1c9335(_0x49005c, _0x597176 - -0x277);
+    function _0x1a644f(_0x4bf049, _0xb469b5) {
+        return _0x103e(_0x4bf049 - 0x9e, _0xb469b5);
     }
-    if (_0x5b11c9['ctrlKey'] && _0x5b11c9['key'] === 'y' || _0x5b11c9['altKey'] && _0x5b11c9[_0x2b0f9d(-0x59, -0x6d)] === 'y') {
-        navigator[_0x2b0f9d(-0x70, -0x7a)][_0x2b0f9d(-0x6b, -0x73)]()['then'](_0x5b43cd => {
-            function _0x2f0a59(_0x554c9e, _0xeac668) {
-                return _0x2b0f9d(_0xeac668, _0x554c9e - -0x22d);
+    document[_0x1a644f(0xab, 0x91)](_0x1a644f(0xa5, 0x88), handleDoubleClick);
+}
+document['addEventListener'](_0x507988(-0x180, -0x199), _0x6db265 => {
+    function _0x44b748(_0x2214e3, _0x2038bb) {
+        return _0x507988(_0x2214e3, _0x2038bb - 0x530);
+    }
+    if (_0x6db265[_0x44b748(0x373, 0x390)] && _0x6db265[_0x44b748(0x3ae, 0x3bc)] === 'y' || _0x6db265['altKey'] && _0x6db265[_0x44b748(0x3b2, 0x3bc)] === 'y') {
+        navigator[_0x44b748(0x3ab, 0x392)]['readText']()[_0x44b748(0x3ae, 0x3ab)](_0x43eb2f => {
+            function _0x2b1c73(_0x407799, _0x5e4acb) {
+                return _0x44b748(_0x5e4acb, _0x407799 - -0x70e);
             }
-            if (document[_0x2f0a59(-0x29c, -0x2aa)] instanceof HTMLInputElement || document[_0x2f0a59(-0x29c, -0x28f)] instanceof HTMLTextAreaElement) {
-                document['activeElement'][_0x2f0a59(-0x29b, -0x295)] = _0x5b43cd;
-                document[_0x2f0a59(-0x29c, -0x284)][_0x2f0a59(-0x2b6, -0x2a6)](new Event(_0x2f0a59(-0x2b5, -0x2ba), { 'bubbles': !![] }));
+            if (document[_0x2b1c73(-0x36a, -0x373)] instanceof HTMLInputElement || document[_0x2b1c73(-0x36a, -0x35e)] instanceof HTMLTextAreaElement) {
+                document[_0x2b1c73(-0x36a, -0x356)][_0x2b1c73(-0x372, -0x361)] = _0x43eb2f;
+                document['activeElement'][_0x2b1c73(-0x347, -0x359)](new Event(_0x2b1c73(-0x360, -0x350), { 'bubbles': !![] }));
             }
-        })[_0x2b0f9d(-0x78, -0x91)](_0x87cb2f => {
-            function _0xc6c619(_0x3dddcc, _0x267617) {
-                return _0x2b0f9d(_0x3dddcc, _0x267617 - -0xa);
+        })[_0x44b748(0x3cb, 0x3be)](_0x7b33ec => {
+            function _0x56564a(_0x41664b, _0x2a437e) {
+                return _0x44b748(_0x41664b, _0x2a437e - -0x17a);
             }
-            console[_0xc6c619(-0x58, -0x68)](_0xc6c619(-0xab, -0x99), _0x87cb2f);
+            console[_0x56564a(0x25b, 0x23f)](_0x56564a(0x238, 0x24e), _0x7b33ec);
         });
     }
 });
+function _0x103e(_0x43da7d, _0x64ee5b) {
+    const _0x103eb3 = _0x64ee();
+    _0x103e = function (_0x101a98, _0x5f3f75) {
+        _0x101a98 = _0x101a98 - 0x0;
+        let _0x5023fe = _0x103eb3[_0x101a98];
+        return _0x5023fe;
+    };
+    return _0x103e(_0x43da7d, _0x64ee5b);
+}
+function _0x64ee() {
+    const _0x33d011 = [
+        'ctrlKey',
+        '10914096CNDqjf',
+        'clipboard',
+        'status',
+        'message',
+        'dblclick',
+        '33LeOPWm',
+        'keydown',
+        '5313217gUsCLE',
+        '\x20please\x20Solve\x20a\x20question\x20in\x20simple\x20way\x20in\x20c++\x20Language\x20format',
+        'Extracted\x20Text:',
+        'addEventListener',
+        'value',
+        '3369663IqjIkZ',
+        'replace',
+        'application/json',
+        'writeText',
+        'content',
+        'parts',
+        '.lg\x5c:t-mb-15.t-mb-10.t-text-black.t-text-big.lg\x5c:t-text-xl.t-font-bold',
+        'activeElement',
+        'observe',
+        '[aria-labelledby=\x22instruction-card\x22]',
+        'readText',
+        'HTTP\x20error!\x20Status:\x20',
+        'candidates',
+        'grey',
+        'then',
+        '\x0a\x20print\x20in\x20proper\x20c++\x20Language\x20\x20the\x20output\x20that\x20he/she\x20asked\x20for,\x20keeping\x20in\x20mind\x20this\x20thing.',
+        '41559792SfeXEr',
+        'input',
+        'Target\x20element\x20not\x20found',
+        'style',
+        '78158dRFwPi',
+        'stringify',
+        'querySelector',
+        'Cleaned\x20Text:',
+        '329884xxMpgL',
+        'Text\x20not\x20found',
+        'Formatted\x20Clipboard\x20Text:',
+        'closest',
+        'error',
+        'Error:',
+        'log',
+        'key',
+        '1913080iNKZJR',
+        'catch',
+        'innerText',
+        'trim',
+        'POST',
+        'div[aria-labelledby=\x22each-type-question\x22]',
+        'disconnect',
+        '5RBJWgB',
+        '1UlRSzx',
+        '\x20using\x20',
+        'dispatchEvent',
+        'Failed\x20to\x20paste:',
+        'black',
+        '10SBlDPe',
+        '9nulPFw',
+        'text',
+        'color'
+    ];
+    _0x64ee = function () {
+        return _0x33d011;
+    };
+    return _0x64ee();
+}
 setTimeout(() => {
     Hack();
 }, 0x9c40);
